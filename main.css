@@ -10,3 +10,8 @@ header {
         min-height: 60vh;
     }
 }
+
+.section {
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
