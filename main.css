@@ -23,3 +23,36 @@ header {
 .tabs .tab a:focus.active {
   background-color: rgb(247, 240, 236);
 }
+
+.footer-socials a {
+  transition: 0.2s;
+}
+
+.footer-socials i {
+  padding-right: 10px;
+}
+
+.footer-socials a:hover {
+  color: #3f51b5 !important;
+}
+
+.nav-arrow {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+}
+
+.nav-arrow a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.nav-arrow i {
+  position: relative;
+  top: -25%;
+  z-index: -2;
+}
