@@ -1,15 +1,25 @@
 header {
-    background-image: url('img/people.jpg');
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh;
+  background-image: url("img/thunder.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
 }
 
 .section {
-    padding-top: 4vw;
-    padding-bottom: 4vw;
+  padding-top: 4vw;
+  padding-bottom: 4vw;
 }
 
-.parallax-container {
+@media (max-width: 600px) {
+  .parallax-container {
     height: 150px;
+  }
+}
+
+.tabs .indicator {
+  border-bottom: 3px solid indigo !important;
+}
+
+.tabs .tab a:focus.active {
+  background-color: rgb(247, 240, 236);
 }
